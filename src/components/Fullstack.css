@@ -1,0 +1,156 @@
+.box-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.head-title{
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.box{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+}
+
+.group-name h2{
+  text-transform: uppercase;
+  color: #fff;  
+  margin: 50px 0 50px 0;
+  letter-spacing: 5px;
+
+}
+
+.box img{
+  cursor: pointer;
+  height: 80px;
+}
+
+.item-info{
+  position: absolute;
+  visibility: hidden;
+  width: 200px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.start-at-bottom{
+  transform: translate3d(0, 100px, 0);
+}
+.img:hover + .item-info{
+  visibility: unset;
+  opacity: 1;
+  transform: translate3d(0, 50px, 0);
+
+}
+
+
+
+/*progress bar*/
+.skillbox{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+.gradient{
+  background-image: linear-gradient(to right, rgb(24, 24, 24, 0), rgb(24, 24, 24, 1));
+  border-radius: 10px;
+}
+.skillbox p{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+
+.meter { 
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background: #282828;
+    border: 1px solid #1996ff;
+    padding: 3px;
+
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    background: #1996ff;
+    border-radius: 15px;
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+/*responsive*/
+
+
+@media screen and (max-width: 960px) {
+  .fullstack{
+    height: auto;
+    padding: 0 2rem;
+  }
+  .box{
+    width: 80%;
+
+  }
+
+  .box img{
+    height: 50px;
+
+  }
+  .group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .group-name{
+    width: 20%;
+  }
+  .group-name h2{
+
+    writing-mode: vertical-lr;
+  }
+  .head-title{
+    font-size: 18px;
+  }
+}

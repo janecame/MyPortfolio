@@ -1,0 +1,133 @@
+.footer-container {
+  background-color: #181818;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container p{
+  margin-top: 50px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer-logo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff;
+  font-size: 31px;
+}
+
+.social-border{
+  width: 1200px;
+  border-top: 1px solid #fff;
+}
+.container-powered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.wrap-powered{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .powered{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #fff;
+  }
+  .powered img{
+    width: 40px;
+  }
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.social-logo i{
+  font-size: 3rem;
+  padding-right: 5px;
+}
+
+.social-logo h1{
+  font-size: 2rem;
+  letter-spacing: 5px;
+  border-bottom: 12px solid transparent;
+  padding-right: 10px;
+}
+
+.website-rights {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-links {
+    padding-top: 2rem;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+   .social-border{
+    width: 100%;
+  }
+}
