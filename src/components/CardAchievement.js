@@ -14,7 +14,7 @@ function CardAchievement(props) {
 					<div className="card-footer">
 						<div className="achieve-footer">
 							<h1>{props.title}</h1>
-							<p>Received date: {props.date}</p>
+							<p>Date of issue: {props.date}</p>
 							<p>{props.description}</p>
 						</div>
 					</div>

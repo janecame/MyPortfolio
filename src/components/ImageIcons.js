@@ -51,4 +51,5 @@ export const profile = require('../images/logo-cue-1.png');
 //awards
 export const error404 = require('../images/projects/error-404.png');
 export const digitalgarage = require('../images/DigitalGarage.png');
-
+export const huaweiCertificate = require('../images/Certificate_Rodrigo_Cuello.png');
+export const unityGame = require('../images/MicrosoftTeams-image.png');

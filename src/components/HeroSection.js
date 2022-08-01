@@ -5,7 +5,7 @@ import { Button } from './Button';
 import './HeroSection.css';
 import { IoCall, IoLogoFacebook, IoLogoGithub, IoMail } from 'react-icons/io5';
 
-import Circles from './BackgroundCircles';
+import { Circle }  from './Figures';
 
 
 function HeroSection({naviga}){
@@ -20,7 +20,8 @@ function HeroSection({naviga}){
 		<div className='hero-container'>
 			{/*<video src="/videos/lotr.mp4" autoPlay loop muted />*/}
 			<div className="hero-wrapper">
-						<Circles />
+						<Circle boxSize="box--large" />
+
 						<h2>Hello</h2>
 						<h1>I'm Rodrigo Cuello</h1>
 						<h3>MUR, Philippines</h3>

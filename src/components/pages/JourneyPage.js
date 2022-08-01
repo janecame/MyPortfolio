@@ -3,13 +3,13 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 //import IoAlbums from 'react-icons/io5';
 import { IoPlay, IoCodeSlashOutline, IoSchool } from 'react-icons/io5';
-import Circles from '../BackgroundCircles';
+import  { Circle } from '../Figures';
 import Footer from '../Footer';
 
 const JourneyPage = () => {
 return(
 	<div className="journey">
-		<Circles boxPosition='position-top-left' />
+		<Circle boxPosition='position-top-left' />
 
 		
 		<VerticalTimeline>

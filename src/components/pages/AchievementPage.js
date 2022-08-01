@@ -28,8 +28,24 @@ const AchievementPage = () => {
 					<h2><IoRibbon /> Certificates</h2>
 
 					<div className="wrapper py">
-						<h2>NO CERTIFICATES</h2>
+						<CardAchievement
+							title="Huawei Math Basics"
+							imgbody={[ImageIcons.huaweiCertificate] }
+							date="August 1, 2022"
+						/>
 
+						<CardAchievement
+							title="Google Digital Garage"
+							imgbody={[ImageIcons.digitalgarage] }
+							date="March 12, 2020"
+						/>
+
+						<CardAchievement
+							title="2D Game development using unity and photoshop"
+							imgbody={[ImageIcons.unityGame] }
+							date="Aug 1, 2022"
+						/>
+						
 					</div>
 				</div>
 				<div className="achieve-section">

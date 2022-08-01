@@ -28,8 +28,6 @@
 
 .box-circles {
 
-  width: 60vmin;
-  height: 60vmin;
   position: absolute;
   
   &::before {
@@ -45,6 +43,18 @@
   }
 }
 
+.box--large{
+  width: 60vmin;
+  height: 60vmin;
+}
+.box--medium{
+  width: 40vmin;
+  height: 40vmin;
+}
+.box--small{
+  width: 20vmin;
+  height: 20vmin;
+}
 .spin-container {
   width: 100%;
   height: 100%;

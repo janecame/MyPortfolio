@@ -43,7 +43,7 @@
 .flex-wrap{
 	padding: 20px 20px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 }
 .achieve-card{
@@ -60,7 +60,9 @@
     padding: 10px;
 } 
 .achieve-footer h1{
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 .achieve-footer p{
     font-size: 14px;
