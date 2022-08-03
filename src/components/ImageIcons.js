@@ -45,8 +45,7 @@ export const login1 = require('../images/projects/oa-login1.png');
 export const form1 = require('../images/projects/oa-form1.png');
 export const bmathquestweb = require('../images/projects/bmathquest-web.png');
 
-
-export const profile = require('../images/logo-cue-1.png');
+export const profile = require('../images/saber.jpg');
 
 //awards
 export const error404 = require('../images/projects/error-404.png');

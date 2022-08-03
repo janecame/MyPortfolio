@@ -101,7 +101,7 @@ video{
 }*/
 .about-profile-2{
 	position: absolute;
-	transform: translate(340px, -230px);
+	transform: translate(0, -190%);
 	box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.6);
 	z-index: 10;
 }
@@ -178,7 +178,7 @@ video{
   	}
 
   .about-profile-2{
-  	transform: translate(150%, -180%);
+  	transform: translate(0, -200%);
   }
   .about-profile,
   .about-profile-2{
@@ -188,6 +188,7 @@ video{
 }
 
 @media screen and (max-width: 800px) {
+	
 	.about-box{
   		width: 90%;
   		height: 90%;
@@ -207,7 +208,7 @@ video{
 		font-size: 2rem;
 	}
 	.about-profile-2{
-  		transform: translate(110%, -155%);
+  		transform: translate(0, -200%);
   	}
   	
   	.about-details{
@@ -220,6 +221,6 @@ video{
 
 @media screen and (max-width: 400px) {
 	.about-profile-2{
-  		transform: translate(65%, -125%);
+  		transform: translate(-10%, -200%);
   	}
 }

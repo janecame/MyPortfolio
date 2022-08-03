@@ -13,6 +13,8 @@ const Project = (props) => {
 	const featureArray = props.projectFeatures;
 	const photoArray = props.projectPhotos;
 
+
+
 return(
 	<div className="project">
 		<div className="project-container">
@@ -36,7 +38,7 @@ return(
 								{photoArray?.map((projectP) => 
 				                	<div>
 							          <img src={projectP} alt="..." key={projectP}/>
-
+							          <p className="legend">Photo 1</p>
 							        </div>
 							    )}
 

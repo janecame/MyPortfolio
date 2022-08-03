@@ -28,9 +28,7 @@ const AboutPage = () => {
 			{/*<video src="/videos/video-2.mp4" autoPlay loop muted />*/}
 			{/*<img src="images/verified.png" alt="verified"/>*/}
 			<div className="about-wrapper">
-				<div className="about-profile-2">
-					<img src={rodrigo} alt="profile"/>
-				</div>
+				
 				<div className="about-box">
 					<div className="about-profile about-border about-border-radius">
 						<img src={profile} alt="profile"/>
@@ -58,6 +56,9 @@ const AboutPage = () => {
 							
 					</div>
 					<div className="about-social">
+					<div className="about-profile-2">
+						<img src={profile} alt="profile"/>
+					</div>
 								
 								<a className='social-icon-link' href='https://www.instagram.com/rodrigo_cuello_03/?hl=en'
 									target='instagram'

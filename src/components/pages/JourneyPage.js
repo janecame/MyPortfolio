@@ -10,8 +10,6 @@ const JourneyPage = () => {
 return(
 	<div className="journey">
 		<Circle boxPosition='position-top-left' />
-
-		
 		<VerticalTimeline>
 			<VerticalTimelineElement
 			    className="vertical-timeline-element--work"
